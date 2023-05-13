@@ -26,20 +26,6 @@ plt.legend()
 # Displaying the chart
 plt.tight_layout()
 plt.show()
-plt.savefig('ibov11-covid-impact.png');
-
-
-plt.figure(figsize=(10, 6))
-axes = plt.gca()
-axes.xaxis.set_major_locator(plt.MaxNLocator(nbins=11))
-plt.plot(datetime_historical_data, close_price_historical_data, label='Close price BRL')
-plt.xlabel('Date')
-plt.ylabel('Price in BRL')
-plt.title('IBOV11 historical data');
-plt.xticks(rotation=45, ha='right');
-
-plt.show()
-plt.savefig('ibov11-historical-data.png');
 
 plt.figure(figsize=(10, 6))
 plt.bar(datetime_covid_impact, volume_covid_impact, label='Volume')
@@ -48,7 +34,6 @@ plt.ylabel('Volume')
 plt.title('IBOV11 volume');
 plt.xticks(rotation=45, ha='right');
 plt.show()
-plt.savefig('ibov11-volume.png');
 
 
 fig, ax1 = plt.subplots()
@@ -74,4 +59,3 @@ plt.xticks(rotation=90)
 
 fig.tight_layout()
 plt.show()
-plt.savefig('ibov11-volume-v-price-covid-impact.png');
