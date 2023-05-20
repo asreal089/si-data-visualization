@@ -8,7 +8,7 @@ filtered_data_brazil_new_death = filtered_data_brazil['New_deaths']
 filtered_data_brazil_vacination = filtered_data_brazil['ratio']
 
 plt.figure(figsize=(10, 6))
-plt.plot(filtered_data_brazil_date, filtered_data_brazil_new_death, label='new Covid-19 deaths in Brazil')
+plt.plot(filtered_data_brazil_date, filtered_data_brazil_new_death, label='new Covid-19 deaths in Brazil', color='red')
 
 # Customizing the chart
 plt.xlabel('Date')
