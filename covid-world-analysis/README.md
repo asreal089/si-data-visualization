@@ -20,7 +20,7 @@ python analysis.py
 ```
 Expected outcome:
 
-<img align="center" width="400px" height="250px" src="https://raw.githubusercontent.com/asreal089/si-data-visualization/main/covid-world-analysis/most_deaths_until_2022.png"/>
+<img align="center" width="400px" height="250px" src="https://raw.githubusercontent.com/asreal089/si-data-visualization/main/covid-world-analysis/most_deatha_until_2022.png"/>
 
 <img align="center" width="400px" height="250px" src="https://raw.githubusercontent.com/asreal089/si-data-visualization/main/covid-world-analysis/brazil_new_deaths_vs_vacination.png"/>
 
